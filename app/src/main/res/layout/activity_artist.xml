@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="@drawable/background_gradient"
+android:id="@+id/activity_artists">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        style="@style/heading_style"
+        android:text="@string/artist_activity"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            style="@style/icons_style"
+            android:src="@drawable/artist_label"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/artist_1"
+            android:text="@string/artist_1" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/line_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            style="@style/icons_style"
+            android:src="@drawable/artist_label"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/artist_2"
+            android:text="@string/artist_2" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/line_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/genres_field"
+        android:layout_height="wrap_content">
+        <ImageView
+            style="@style/icons_style"
+            android:src="@drawable/artist_label"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/artist_3"
+            android:text="@string/artist_3"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/line_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            style="@style/icons_style"
+            android:src="@drawable/artist_label"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/artist_4"
+            android:text="@string/artist_4" />
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

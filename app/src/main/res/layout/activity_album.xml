@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_gradient"
+    android:id="@+id/activity_artists">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            style="@style/heading_style"
+            android:text="@string/albums_activity" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/line_color"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                style="@style/icons_style"
+                android:src="@drawable/album_label"/>
+            <TextView
+                android:id="@+id/album_1"
+                style="@style/CategoryStyle"
+                android:text="@string/album_1" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/line_color"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                style="@style/icons_style"
+                android:src="@drawable/album_label"/>
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/album_2"
+                android:text="@string/album_2" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/line_color"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                style="@style/icons_style"
+                android:src="@drawable/album_label"/>
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/album_3"
+                android:text="@string/album_3"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/line_color"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                style="@style/icons_style"
+                android:src="@drawable/album_label"/>
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/album_4"
+                android:text="@string/album_4" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

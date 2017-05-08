@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_gradient"
+    android:id="@+id/activity_main">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        style="@style/heading_style"
+        android:text="@string/main_page_description"
+    />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/line_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            style="@style/icons_style"
+            android:src="@drawable/artist_label"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/artists_field"
+            android:text="@string/artists_category" />
+    </LinearLayout>
+    <View
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/line"
+         android:background="@color/line_color"/>
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <ImageView
+             style="@style/icons_style"
+            android:src="@drawable/album_label"/>
+         <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/albums_field"
+            android:text="@string/albums_category" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/line_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageView
+            style="@style/icons_style"
+            android:src="@drawable/rock"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/genres_field"
+            android:text="@string/genres_category"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/line_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+             style="@style/icons_style"
+             android:src="@drawable/tracks"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/track_field"
+            android:text="@string/tracks_category" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

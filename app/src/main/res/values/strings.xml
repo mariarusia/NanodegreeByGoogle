@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Music Structure Application</string>
+    <string name="artists_category">Artists</string>
+    <string name="tracks_category">All Tracks</string>
+    <string name="albums_category">Albums</string>
+    <string name="genres_category">Genres</string>
+    <string name="entry_field">Enter name</string>
+    <string name="artist_activity">Choose the artist you would like to listen to. Here`s what we have:</string>
+    <string name="genres_activity">Choose the genre you would like to listen to. Here`s what we have:</string>
+    <string name="track_activity">Choose the track you would like to listen to. Here`s what we have:</string>
+    <string name="albums_activity">Choose the album you would like to listen to. Here`s what we have:</string>
+
+    <string name="main_page_description">Library</string>
+    <string name="buy">MusicStructureApplication</string>
+    <string name="now_playing">Now playing:</string>
+    <string name="track_playing">Artist Name:Track Name </string>
+    <string name="artist_playing">Artist: Artist 1</string>
+    <string name="album_playing">Album: Album 1</string>
+    <string name="yesr">Year: 1997</string>
+
+    <string name="artist_1">Artist 1</string>
+    <string name="artist_2">Artist 2</string>
+    <string name="artist_3">Artist 3</string>
+    <string name="artist_4">Artist 4</string>
+
+    <string name="album_1">Album 1</string>
+    <string name="album_2">Album 2</string>
+    <string name="album_3">Album 3</string>
+    <string name="album_4">Album 4</string>
+
+    <string name="track_1">Track 1</string>
+    <string name="track_2">Track 2</string>
+    <string name="track_3">Track 3</string>
+    <string name="track_4">Track 4</string>
+
+    <string name="rock">Rock</string>
+    <string name="hiphop">Hip Hop</string>
+    <string name="classic">Classic Music</string>
+    <string name="jazz">Jazz</string>
+    <string name="title_activity_artist">List of Artists</string>
+    <string name="title_genre_activityt">List of Genres</string>
+    <string name="title_track_activity">List of Tracks</string>
+    <string name="title_album_activity">List of Albums</string>
+    <string name="title_activity_now_playing">Now Playing</string>
+
+</resources>

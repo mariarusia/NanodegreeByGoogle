@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_gradient"
+    android:id="@+id/activity_artists">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            style="@style/heading_style"
+            android:text="@string/genres_activity"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/line_color"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                style="@style/icons_style"
+                android:src="@drawable/rock"/>
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/rock"
+                android:text="@string/rock" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/line_color"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                style="@style/icons_style"
+                android:src="@drawable/hiphop"/>
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/hiphop"
+                android:text="@string/hiphop" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/line_color"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                style="@style/icons_style"
+                android:src="@drawable/classic_music"/>
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/classic"
+                android:text="@string/classic"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line"
+            android:background="@color/line_color"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                style="@style/icons_style"
+                android:src="@drawable/jazz"/>
+            <TextView
+                android:id="@+id/jazz"
+                style="@style/CategoryStyle"
+                android:text="@string/jazz" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
