@@ -58,6 +58,10 @@
                 android:src="@drawable/repeat_filled"
                 android:layout_weight="1"/>
         </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_for_now_playing"/>
     </LinearLayout>
 
 </ScrollView>

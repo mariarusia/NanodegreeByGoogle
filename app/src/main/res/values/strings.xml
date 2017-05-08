@@ -43,4 +43,8 @@
     <string name="title_album_activity">List of Albums</string>
     <string name="title_activity_now_playing">Now Playing</string>
 
+    <string name="description_for_now_playing">This is a little extra description for the activity.
+        Ideally, we would implement a music player, using MusicPlayer Class.
+    </string>
+
 </resources>
